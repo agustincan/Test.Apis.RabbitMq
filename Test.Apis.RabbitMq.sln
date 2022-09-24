@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Core", "Reposito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person.Api.Application", "Person.Api.Application\Person.Api.Application.csproj", "{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450} = {A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}
+		{B4B0725E-D0EE-41BF-9702-32A01F9CFA2D} = {A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}
+		{CC50B3E4-AA4F-47E2-8184-E54D80732DD3} = {A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}
+		{54AE15A1-6097-4623-B00F-61B0E460E731} = {A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}
 	EndGlobalSection
 EndGlobal
