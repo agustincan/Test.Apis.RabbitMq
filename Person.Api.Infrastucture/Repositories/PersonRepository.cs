@@ -21,6 +21,7 @@ namespace Person.Api.Infrastucture.Repositories
         {
             var result = await _repository.Entities
                 .Where(p => p.FirstName.Contains(name) || p.LastName.Contains(name))
+                .AsNoTracking()
                 .ToListAsync();
             return _mapper.Map<IEnumerable<PersonDto>>(result);
         }
@@ -28,6 +29,7 @@ namespace Person.Api.Infrastucture.Repositories
         {
             var result = await _repository.Entities
                 .Include(p => p.Addresses)
+                .AsNoTracking()
                 .ToListAsync();
             return _mapper.Map<IEnumerable<PersonDto>>(result);
         }
