@@ -1,5 +1,6 @@
 using Person.Api.Application.Extensions;
 using Person.Api.Extensions;
+using Person.Api.Infrastucture.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDatabase(builder.Configuration);
 //
 builder.Services.AddApplicationLayer();
+builder.Services.AddInfrastuctureLayer();
 builder.Services.AddApplicationServices();
 //
 builder.Services.AddControllers();

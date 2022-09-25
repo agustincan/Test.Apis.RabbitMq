@@ -1,10 +1,10 @@
-namespace Person.Api.Domain.Entities
+namespace Person.Api.Domain.Dtos
 {
-    public class Person
+    public record PersonDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
-        public virtual ICollection<Address>? Addresses { get; set; }
-    }
+        public virtual IEnumerable<AddressDto>? Addresses { get; set; }
+    }   
 }

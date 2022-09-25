@@ -7,7 +7,6 @@ namespace Person.Api.Application.Features.Persons.Queries
     {
         public GetAllQuery()
         {
-            
         }
     }
 

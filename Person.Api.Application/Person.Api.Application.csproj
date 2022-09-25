@@ -23,13 +23,16 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Person.Api.Domain\Person.Api.Domain.csproj" />
-      <ProjectReference Include="..\Person.Api.Infrastucture\Person.Api.Infrastucture.csproj" />
-      <ProjectReference Include="..\Repository.Core\Repository.Core.csproj" />
+      <ProjectReference Include="..\Person.Shared\Person.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\Reposirories" />
       <Folder Include="Interfaces\Services" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     </ItemGroup>
 
 </Project>

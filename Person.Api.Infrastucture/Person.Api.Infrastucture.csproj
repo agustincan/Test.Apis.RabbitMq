@@ -13,8 +13,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Person.Api.Application\Person.Api.Application.csproj" />
       <ProjectReference Include="..\Person.Api.Domain\Person.Api.Domain.csproj" />
-      <ProjectReference Include="..\Repository.Core\Repository.Core.csproj" />
+      <ProjectReference Include="..\Person.Shared\Person.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>
