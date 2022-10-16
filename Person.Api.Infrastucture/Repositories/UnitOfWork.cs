@@ -33,7 +33,7 @@ namespace Person.Api.Infrastucture.Repositories
                 _repositories.Add(type, repositoryInstance);
             }
 
-            return (IRepositoryAsync<TEntity>)_repositories[type];
+            return (IRepositoryAsync<TEntity>)_repositories[type]!;
         }
 
         public async Task<int> Commit(CancellationToken cancellationToken)

@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person.Api", "Person.Api\Person.Api.csproj", "{1346B421-D4D3-452E-A060-FA0D752C1563}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person.Api.Infrastucture", "Person.Api.Infrastucture\Person.Api.Infrastucture.csproj", "{CC50B3E4-AA4F-47E2-8184-E54D80732DD3}"
@@ -17,6 +18,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{17B2A463-8657-4897-B892-7631A123799E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{36905E7D-BD95-4CF3-B907-2100148065AA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitOfWork.Sql", "UnitOfWork.Sql\UnitOfWork.Sql.fsproj", "{3F899507-139D-4E8C-AE4D-031815FAD40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +47,10 @@ Global
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E3EFAC-E11C-4ECD-84A5-1051DF4CC450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F899507-139D-4E8C-AE4D-031815FAD40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F899507-139D-4E8C-AE4D-031815FAD40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F899507-139D-4E8C-AE4D-031815FAD40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F899507-139D-4E8C-AE4D-031815FAD40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C0F46670-E233-485F-9D0D-C455ED82069A} = {A57FA4A9-4B1C-4758-8ED3-18011E4B75AC}
